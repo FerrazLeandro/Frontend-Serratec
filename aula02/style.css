@@ -1,0 +1,17 @@
+h1 {
+    color: #000000bd;
+    font-size: 200px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    color: #1837c2;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+button {
+    border-radius: 150;
+}
