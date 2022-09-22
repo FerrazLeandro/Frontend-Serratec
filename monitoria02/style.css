@@ -1,0 +1,15 @@
+.quadrado {
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+    text-align: center;
+    display: inline;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.verde {
+    background-color: green;
+}

@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw;
+    height: 8vh;
+    border: 1px solid red;
+    display: flex;
+    align-items: center; 
+}
+
+#menu {
+    width: 20%;
+    height: 90%;
+    border: 1px solid green;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#menu > img {
+    margin-right: 10px;
+}
+
+#title_conteiner > h1 {
+    font-size: 20px;
+}
+
+#title_conteiner > h2 {
+    font-size: 13px;
+}
+
+#links {
+    width: 60%;
+    height: 90%;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#links_container {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#links_container > a {
+    color: rgb(199, 119, 119);
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#configuracao {
+    width: 20%;
+    height: 90%;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#configuracao > img{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#configuracao > img:nth-child(3) {
+    border-radius: 50%;
+}
+
+#banner_section {
+    width: 100vw;
+    height: 25vh;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#banner {
+    width: 50%;
+    height: 80%;
+    border: 1px solid green;
+    background-image: url('./img/fundo.png');
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#banner div > h1 {
+    color: white;
+}
+
+#banner div > h2 {
+    color: white;
+}
+
+#banner > button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: white;
+    color: orangered;
+}

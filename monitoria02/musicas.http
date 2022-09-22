@@ -1,0 +1,12 @@
+GET https://632b76785568d3cad870611c.mockapi.io/musicas
+
+###
+POST https://632b76785568d3cad870611c.mockapi.io/musicas
+Content-Type: application/json
+
+{
+     "genero": "Funk",
+    "titulo": "Bora Billll",
+    "artista": "Desconhecido",  
+    "residente": "Leandro Ferraz"
+}
