@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   /*  background: linear-gradient(68.15deg, #000000 16.62%, tomato 85.61%); */
+   background-color: #000000;
+    color: #FFFFFF;
+}
+
+@media (max-width: 1300px) {
+    * {
+        background-color: tomato;
+        color: #000000;
+    }
+}
+
+header h1 {
+    margin-left: 50px;
+    margin: 20px;
+    font-size: 40;
+}
+
+h1 a:hover {
+    text-decoration: underline;
+    color: tomato;
+    font-size: 35px;
+}
+
+.menu {
+    height: 30%;
+}
+
+.menu > nav > a{
+    margin-left: 50px;
+}
+
+nav {
+    margin: 20px;
+    margin-left: 50px;
+    /*display: flex;
+    justify-content: space-evenly;*/
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: tomato;
+    font-size: 19px;
+}
+
+main {
+    display: inline_block;
+}
+.introducao {
+    margin: 2% 5%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.descricao {
+    font-weight: 900;
+    font-size: 20px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.detalhes {
+    text-align: center;
+}
+
+hr {
+    margin: 20px;
+}
+
+p {
+    margin: 20px; 
+}
+
+h2 {
+    margin: 10px;
+}
+
+.icones {
+    height: 40;
+    width: 50;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+
+
+
