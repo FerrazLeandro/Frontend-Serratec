@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: linear-gradient(68.15deg, #000000 16.62%, tomato 85.61%);
+   /*  background: linear-gradient(68.15deg, #000000 16.62%, tomato 85.61%); */
+   background-color: #000000;
     color: #FFFFFF;
 }
 
