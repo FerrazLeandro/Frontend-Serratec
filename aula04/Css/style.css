@@ -136,3 +136,39 @@ header {
     background-color: white;
     color: orangered;
 }
+
+main {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.main-e {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid;
+}
+
+.main-c {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid;
+}
+
+.main-d {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid;
+    height: 100%;
+}
