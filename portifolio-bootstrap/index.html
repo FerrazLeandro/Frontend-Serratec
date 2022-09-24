@@ -6,13 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portifólio { ... }</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand cor-texto" href="#" text>Portifólio { ... }</a>
+      <a class="navbar-brand" href="#" text>Portifólio { ... }</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -32,19 +33,87 @@
             <a class="nav-link active" aria-current="page" href="./monitoria.html">Sobre</a>
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Buscar</button>
-        </form>
+        <div class="form-check form-switch form-check-reverse">
+          <input class="form-check-input" type="checkbox" id="flexSwitchCheckReverse">
+          <label class="form-check-label" style="color: white;" for="flexSwitchCheckReverse">Dark</label>
+        </div>
       </div>
     </div>
   </nav>
 
-  <div class="video">
-    <div class="ratio ratio-16x9">
-      <iframe src="https://www.youtube.com/embed/MB3tDveT0BY" title="YouTube" allowfullscreen></iframe>
+  <main>
+    <div class="introducao">
+      <img class="foto" src="./img/Ferraz.png" alt="Leandro Ferraz" width="200" height="200">
+      <div class="descricao">
+        <p> ✔️ QA - Alterdata Software</p>
+        <p> 💻 Residente em Software - Serratec</p>
+        <p> 🌱 Futuro Desenvolvedor FullStack</p>
+      </div>
     </div>
-  </div>
+
+    <hr>
+    <div class="detalhes">
+      <h2>Networks</h2>
+      <a href="https://www.linkedin.com/in/ferrazleandro " rel="noopener" target="_blank">
+        <img src="./img/LinkedIn.svg" alt="linkedin">
+      </a>
+      <a href="mailto:leandro_ferraz@outlook.com" target="_blank">
+        <img src="./img/Outlook.svg" alt="outlook">
+      </a>
+      <a href="https://api.whatsapp.com/send?phone=5521993017615 " rel="noopener" target="_blank">
+        <img src="./img/WhatsApp.svg" alt="WhatsApp">
+      </a>
+
+      <hr>
+      <div class="icones">
+        <h2>Languages</h2>
+        <a href="https://github.com/FerrazLeandro">
+          <img src="./img/java-original.svg" width="40" height="40" alt="java" />
+          <img src="./img/javascript-original.svg" width="40" height="40" alt="js" />
+          <img src="./img/html5-original.svg" width="40" height="40" alt="html" />
+          <img src="./img/css3-original.svg" width="40" height="40" alt="css" />
+        </a>
+
+        <hr>
+        <h2>Tools</h2>
+        <a href="https://github.com/FerrazLeandro">
+          <img src="./img/vscode-original.svg" width="40" height="40" alt="vscode" />
+          <img src="./img/postgresql-plain.svg" width="40" height="40" alt="postgres" />
+          <img src="./img/microsoftsqlserver-plain.svg"" width=" 40" height="40" alt="sql" />
+          <img src="./img/mongodb-original.svg" width="40" height="40" alt="mongodb" />
+          <img src="./img/git-original.svg" width="40" height="40" alt="git" />
+          <img src="./img/github-original.svg" width="40" height="40" alt="github" />
+          <img src="./img/jira-original.svg" width="40" height="40" alt="jira" />
+          <img src="./img/jenkins-original.svg" width="40" height="40" alt="jenkins" />
+        </a>
+      </div>
+
+      <hr>
+      <h2>Stats</h2>
+      <div class="estatisticas">
+        <a href="https://github.com/FerrazLeandro">
+          <img
+            src="https://github-readme-stats.vercel.app/api?username=FerrazLeandro&show_icons=true&theme=dark&include_all_commits=true&count_private=true"
+            alt="gitcommits" />
+          <img
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=FerrazLeandro&layout=compact&langs_count=7&theme=dark"
+            alt="languages" />
+        </a>
+      </div>
+      <hr>
+      <div class="imgevid">
+        <div class="imagem">
+          <img height="80%" width=80%
+            src="https://user-images.githubusercontent.com/70382532/138322189-2db8df52-9dcb-40a0-88a8-c365466bd33d.gif"
+            alt="mario" />
+        </div>
+        <div class="video">
+          <iframe height="80%" width=80% src="https://www.youtube.com/embed/MB3tDveT0BY" title="YouTube"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </main>
 
 
   <!-- Footer -->
@@ -53,23 +122,21 @@
     <div class="container p-4">
       <!-- Section: Social media -->
       <section class="mb-4">
-        <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
-
-        <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
-
         <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="https://api.whatsapp.com/send?phone=5521993017615"
+          role="button"><i class="fab fa-google">Whatsapp</i></a>
 
         <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="mailto:leandro_ferraz@outlook.com" role="button"><i
+            class="fab fa-instagram">Email</i></a>
 
         <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/ferrazleandro/"
+          role="button"><i class="fab fa-linkedin-in">LinkedIn</i></a>
 
         <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/FerrazLeandro" role="button"><i
+            class="fab fa-github">GitHub</i></a>
       </section>
       <!-- Section: Social media -->
 
@@ -78,20 +145,13 @@
         <form action="">
           <!--Grid row-->
           <div class="row d-flex justify-content-center">
-            <!--Grid column-->
-            <div class="col-auto">
-              <p class="pt-2">
-                <strong>Assine a minha newsletter</strong>
-              </p>
-            </div>
-            <!--Grid column-->
 
             <!--Grid column-->
             <div class="col-md-5 col-12">
               <!-- Email input -->
               <div class="form-outline form-white mb-4">
-                <input type="email" id="form5Example21" class="form-control" />
-                <label class="form-label" for="form5Example21">Email</label>
+                <input type="email" id="form5Example21" class="form-control" placeholder="Email" />
+                <label class="form-label" for="form5Example21">Assine a minha newsletter</label>
               </div>
             </div>
             <!--Grid column-->
@@ -117,47 +177,6 @@
         </p>
       </section>
       <!-- Section: Text -->
-
-      <!-- Section: Links -->
-      <section class="">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="https://github.com/FerrazLeandro" class="text-white">GitHub</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="https://www.linkedin.com/in/ferrazleandro/" class="text-white">LinkedIn</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="mailto:leandro_ferraz@outlook.com" class="text-white">Email</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="https://api.whatsapp.com/send?phone=5521993017615" class="text-white">Whatsapp</a>
-              </li>
-            </ul>
-          </div>
-
-        </div>
-      </section>
-      <!-- Section: Links -->
     </div>
     <!-- Grid container -->
 
@@ -169,8 +188,10 @@
     <!-- Copyright -->
   </footer>
   <!-- Footer -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+  </script>
+  <script src="./script.js"></script>
 </body>
 
 </html>
