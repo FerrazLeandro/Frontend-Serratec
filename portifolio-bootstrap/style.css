@@ -1,8 +1,10 @@
 body {
     font-family: 'Indie Flower', cursive;
-    /* font-family: 'Montserrat', sans-serif; */
-    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    width: 100vw;
+    height: 100vh;
 }
 
 .form-check-input:hover {
