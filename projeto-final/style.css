@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    background: linear-gradient(black, #ff4d7b 70%, black );
+}
+
+.wpp-link{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 40px;
+    background-color: #010101;
+    border-radius: 50%;
+    z-index: 1000;
+
+}
+
+#whatsapp{
+    position: fixed;
+    width: 40px;
+    right: 50px;
+    bottom: 32px;
+
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.descricao > h1 {
+    width: 50%;
+    margin: 50px 0 5px 0;
+}
+
+.descricao > p {
+    width: 50%;
+}
+
+.descricao > img {
+    width: 20%;
+    margin-bottom: 50px;
+}
+
+.mb-4 > a > img {
+    width: 20px;
+    height: 20px;
+}
+
+#precos {
+   margin: 0 10%;  
+} 
+
+.descricao > h2 {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.descricao h3 {
+
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    padding: px;
+}
+
+#lista1 {
+    flex-direction: row;
+    align-items: center;
+    color: red;
+    font-weight: bolder;
+}
+.my-0, .fw-normal > img{
+    display: flex;
+    flex-direction: row;
+    width: 20px;
+
+}
+
+#rank{
+    display: flex;
+    justify-content: space-between; 
+
+}
+
+footer {
+    background-color: #f1f1f1;
+}
+
+footer img:hover {
+    box-shadow: 8px 2px 8px rgba(82, 82, 82, 0.4);
+    border-radius: 100%;
+}
